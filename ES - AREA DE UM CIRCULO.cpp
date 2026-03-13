@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cmath>
+#include <iomanip>
 using namespace std;
 
 int main()
@@ -14,6 +15,7 @@ int main()
 
     area = pi * pow(raio,2);
 
+    cout << fixed << setprecision(4);
     cout << "AREA = " << area << endl;
 
     return 0;
