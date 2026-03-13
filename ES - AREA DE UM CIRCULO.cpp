@@ -15,7 +15,7 @@ int main()
 
     area = pi * pow(raio,2);
 
-    cout << fixed << setprecision(4);
+    cout << fixed << setprecision(3);
     cout << "AREA = " << area << endl;
 
     return 0;
